@@ -6,14 +6,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('../img/robot2.jpg');
+    background-image: url('https://s2.glbimg.com/Odwktw-jQBi4SPv6tlgt6JRA8Jg=/e.glbimg.com/og/ed/f/original/2016/08/10/mrrobot.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100% ;
-    font-family: 'Roboto', sans-serif;;
+    background-size: 100%  100%  10px;
+    font-family: 'Roboto', sans-serif;
 }
 html{
-    height: 100%;
+    height: 130%;
     
 }
 
