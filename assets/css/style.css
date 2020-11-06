@@ -57,6 +57,10 @@ html{
         align-items: center;
 
     }
+     .logo img{
+        width: 300px;
+    
+    }
     .menu ul{
         width: 300px;
         flex-wrap: wrap;
