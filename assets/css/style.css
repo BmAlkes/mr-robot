@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    background-image: url('/assets/img/robot2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% ;
+    font-family: 'Roboto', sans-serif;;
+}
+html{
+    height: 100%;
+    
+    
+}
+
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: start;
+
+}
+
+
+.line-menu{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+}
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+@media(max-width:600px){
+    body{
+        background-size: 90% 60%;
+       background-position: center;
+    }
+    .line-menu{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .menu ul{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .menu li a{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+section::after{
+    content: "ROBOT";
+    width: 900px;
+    height: 600px;
+    color: #FFF;
+    font-size: 15rem;
+    font-weight: bold;
+    opacity: 0.1;
+    position: absolute;
+    left: 60px;
+    top: 100px;
+
+}
+section{
+    position: relative;
+
+}
+
+.section{
+    width: 600px;
+    color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    
+}
+
+.section h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+@media(max-width:600px){
+    section::after{
+        transform:rotate(90deg);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 250px;
+    height: 150px;
+    }
+}
+
+.section h2::after{
+    content: '|';
+    width: 1px;
+    height: 1px;
+    color: red;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+}
+
+.section p{
+    width: 400px;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 2.6px;
+}
+
+
+@media(max-width:600px){
+    .section h2::after{
+        top: 0;
+        left: -20px;
+    } 
+    .section p{
+        font-size: 12px;
+        width: 250px;
+        line-height: 23px;
+    }
+}
