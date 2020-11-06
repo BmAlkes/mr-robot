@@ -49,7 +49,7 @@ html{
 
 @media(max-width:600px){
     body{
-        background-size: 90% 60%;
+        background-size: cover;
        background-position: center;
     }
     .line-menu{
@@ -138,5 +138,8 @@ section{
         font-size: 12px;
         width: 250px;
         line-height: 23px;
+    }
+    html{
+        height: 100%;
     }
 }
