@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('/assets/img/robot2.jpg');
+    background-image: url('../img/robot2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100% ;
